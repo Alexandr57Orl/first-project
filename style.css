@@ -1,5 +1,10 @@
 body {
 	background-color: gray;
+	max-width: 900px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	
 }
 
 .heead {
@@ -7,23 +12,33 @@ body {
 	
 }
 .first__title {
-	font-size: 16px;
+	
+	font-size: 72px;
 	font-weight: 600;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	display: grid;
-	grid-template-columns: 75px 75px 50px;
-	grid-template-rows: 50px 50px 50px;
-	gap: 30px;
+	
   
 }
+
+.accept-span{
+	display: block;
+	
+}
 .first__color {
+	text-align: left;
 	color:white;
+	
 }
 .two-color {
+	text-align: center;
 	color:blue;
+	padding-right: 100px;
+	
 }
 .color__three {
+	text-align: right;
 	color: red;
+	margin-left: 190px;
 }
 .main {
 }
