@@ -42,5 +42,11 @@ body {
 }
 .main {
 }
+
+.main__text{
+	margin: 50px;
+	font-size: 34px;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
 .section {
 }
